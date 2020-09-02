@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# My Ignore
+data_endovis17*
+data_endovis17/*
+*.ipynb
+temp*
+temp/*
