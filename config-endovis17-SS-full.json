@@ -1,0 +1,78 @@
+{
+    "naming":"endovis17-SS-full",
+    
+    "img_dir":"./data_endovis17/image",
+    "ground_truth_dir":"./data_endovis17/ground_truth",
+    "pos_anchor_dir":"./data_endovis17/anchors/pos",
+    "neg_anchor_dir":"./data_endovis17/anchors/neg",
+    
+    "original_img_size":[
+        1080,
+        1920
+    ],
+    "preprocess_crop_location":[
+        28,
+        320
+    ],
+    "preprocess_crop_size":[
+        1024,
+        1280
+    ],
+    "model_input_size":[
+        512,
+        640
+    ],
+    "feature_map_size":[
+        256,
+        320
+    ],
+    
+    "train_dir_list":[
+        "instrument_dataset_1_train",
+        "instrument_dataset_2_train",
+        "instrument_dataset_3_train",
+        "instrument_dataset_4_train",
+        "instrument_dataset_5_train",
+        "instrument_dataset_6_train",
+        "instrument_dataset_7_train",
+        "instrument_dataset_8_train"
+    ],
+    "test_dir_list":[
+        "instrument_dataset_1_test",
+        "instrument_dataset_2_test",
+        "instrument_dataset_3_test",
+        "instrument_dataset_4_test",
+        "instrument_dataset_5_test",
+        "instrument_dataset_6_test",
+        "instrument_dataset_7_test",
+        "instrument_dataset_8_test",
+        "instrument_dataset_9_test",
+        "instrument_dataset_10_test"
+    ],
+    
+    
+    "epoch_num":6,
+    "learning_rate":0.0005,
+    "batch_size":6,
+    
+    "pos_ratio":1.5,
+    "neg_ratio":1,
+
+    "fg_ratio":0.5,
+    "bg_ratio":2,
+    
+    "sim_feature_cnn":"vgg16",
+    "sim_feature_layers":[
+        "relu5_3"
+    ],
+    "sim_fg_margins":[
+        0.05
+    ],
+    "sim_bg_margins":[
+        0.45
+    ],
+
+    "transposed_conv":false,
+    "merge_batches":false,
+    "align_corners":false
+}
