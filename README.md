@@ -54,7 +54,7 @@ This output folder will include following sub-directories:
 
 
 ## Citation
-TO DO.
+Liu D. et al. (2020) Unsupervised Surgical Instrument Segmentation via Anchor Generation and Semantic Diffusion. In: Martel A.L. et al. (eds) Medical Image Computing and Computer Assisted Intervention – MICCAI 2020. MICCAI 2020. Lecture Notes in Computer Science, vol 12263. Springer, Cham. https://doi.org/10.1007/978-3-030-59716-0_63
 
 ## License
 MIT
