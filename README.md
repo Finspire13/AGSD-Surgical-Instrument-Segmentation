@@ -12,7 +12,7 @@ Code for 'Unsupervised Surgical Instrument Segmentation via Anchor Generation an
 * Install dependencies: `pip3 install -r requirements.txt`.
 
 ## Data
- 1. Download our data for EndoVis 2017 from [Baidu Yun](https://pan.baidu.com/s/1qDq38oiO7DunwVYYNQ_dSQ) (PIN:m0o7) or [Google Drive](https://drive.google.com/file/d/10VU0Ss0IHThu9W1syLRwLGSzX1ywI3zl/view?usp=sharing).
+ 1. Download our data for EndoVis 2017 from [Baidu Yun](https://pan.baidu.com/s/1qDq38oiO7DunwVYYNQ_dSQ) (PIN:m0o7) or [Google Drive](https://drive.google.com/file/d/1URJGJGEp1VgtKVMM3gPkie6x69uuE3eZ/view?usp=share_link).
  2. Unzip the file and put into the current directory.
  3. The data includes following sub-directories:
 
